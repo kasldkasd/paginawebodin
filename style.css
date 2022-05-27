@@ -1,0 +1,121 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #1F2937;
+    margin: 0;
+    align-items: center;
+   
+}
+.container{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    gap: 60px;
+    padding: 70px 0px;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    gap:15px;
+    list-style: none;
+}
+.random{
+    width: 600px;
+    height: 300px;
+}
+.info{
+    width: 400px;
+}
+.info h2{
+    font-size: 48px;
+    margin: 0px;
+}
+.info p{
+    font-size: 18px;
+    margin: 0px 0px 15px 0;
+}
+button{
+    background-color: #3882F6;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 9px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.card{
+    max-width: 300px;
+}
+.titlecards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+.container3 p{
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container3 h3{
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    padding-right: 500px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    background-color:#E5E7EB;
+    justify-content: center;
+    padding:90px;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    background-color: #3882F6;
+    color:white;
+    width: 900px;
+    border-radius: 10px;
+    padding:60px;
+}
+.container4 h4,p{
+    margin:0;
+}
+.container5{
+    display: flex;
+    justify-content: center;
+    margin:90px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding:40px;
+}
